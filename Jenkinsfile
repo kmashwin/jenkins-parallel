@@ -6,25 +6,25 @@ pipeline {
   stages {
     stage('stage1') {
       steps {
-        // One or more steps need to be included within the steps block.
+	sh 'sleep 2'
       }
 
     }
     stage('stage2') {
       steps {
-        // One or more steps need to be included within the steps block.
+	sh 'sleep 4'
       }
 
     }
     stage('stage3') {
       steps {
-        // One or more steps need to be included within the steps block.
+	sh 'sleep 6'
       }
 
     }
     stage('stage4') {
       steps {
-        // One or more steps need to be included within the steps block.
+	sh 'sleep 8'
       }
 
     }
